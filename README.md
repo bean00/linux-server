@@ -1,16 +1,10 @@
 # Linux Server Configuration
 
+**NOTE**: The server was successfully created and deployed. Once verified by Udacity's code reviewer, I took down the server to save cost. I have carefully detailed all steps I took, so re-deploying should not be too difficult.
+
 A project where I've created a server, configured a firewall, and deployed an application to the server (used Amazon Lightsail, Ubuntu, and Flask). Part of the Udacity Full Stack Web Developer Nanodegree.
 
-The application that's deployed is the [Item Catalog](https://github.com/bean00/item-catalog) project.
-
-## Accessing the Server
-- IP address: 34.217.226.172
-- SSH port: 2200
-- Command to SSH into the server:
-    - `ssh grader@34.217.226.172 -p 2200 -i [path-to-private-key]`
-- Application URL: http://34.217.226.172.xip.io
-- *Note*: You will need the private key to access the server
+I deployed the [Item Catalog](https://github.com/bean00/item-catalog) project (which can still be run locally).
 
 ## Software Installed
 - Apache HTTP Server
